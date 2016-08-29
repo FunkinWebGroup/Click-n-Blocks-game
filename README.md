@@ -4,3 +4,4 @@
 
 ### How do I test/play this game?
 You should be able to play this game on our website at [FunkinWebGroup](http://funkinwebgroup.cf/).
+You can also play this by downloading the source code and opening the index.html file in your browser. If the javascript doesnt work from opening the file, it isnt our fault.
