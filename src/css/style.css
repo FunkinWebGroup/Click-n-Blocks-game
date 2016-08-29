@@ -1,0 +1,48 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+.head {
+  text-align:center;
+  background-color:LightBlue;
+  border-bottom:1px solid Black;
+}
+
+.main {
+  text-align:center
+}
+.main img {
+  width:85%;
+  text-align:center;
+}
+
+.quater {
+  width:21.5%;
+  float:left;
+  display:inline-block;
+  margin:1.5%;
+  border:1px solid Black;
+  text-align:center;
+  font-size:20pt;
+}
+
+.quater img {
+  width:100px;
+}
+
+input#un-mute {
+  display: none;
+}
+
+.unmute img {
+  display: none;
+}
+
+input#un-mute:checked ~ .unmute img {
+  display: initial;
+}
+
+input#un-mute:checked ~ .mute img {
+  display: none;
+}
