@@ -31,18 +31,20 @@
   width:100px;
 }
 
-input#un-mute {
-  display: none;
+@media screen and (min-width: 480px) {
+  .body {
+  margin: 0 10%;
+  }
 }
 
-.unmute img {
-  display: none;
+@media screen and (min-width: 720px) {
+  .body {
+	margin: 0 20%;
+  }
 }
 
-input#un-mute:checked ~ .unmute img {
-  display: initial;
-}
-
-input#un-mute:checked ~ .mute img {
-  display: none;
+@media screen and (min-width: 1200px) {
+  .body {
+	margin: 0 30%;
+  }
 }
